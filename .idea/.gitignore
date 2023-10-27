@@ -1,8 +1,14 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+### Maven template
+target/
+**/target
+.idea
+*.iml
+.DS_Store
+.idea/
+.classpath
+.project
+.settings
+bin/
+**/bin
+logs/
+test-svc/
