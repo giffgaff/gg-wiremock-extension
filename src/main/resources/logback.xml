@@ -10,8 +10,7 @@
           <pattern>
             {
             "severity": "%level",
-            "trace": "%X{traceId:-}",
-            "span": "%X{spanId:-}",
+            "trace": "%X{traceId:-testTraceId}",
             "class": "%logger{40}",
             "message": "%message"
             }
