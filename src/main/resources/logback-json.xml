@@ -10,7 +10,8 @@
           <pattern>
             {
             "severity": "%level",
-            "trace": "%X{traceId:-testTraceId}",
+            "trace": "%X{traceId:-}",
+            "span": "%X{spanId:-}",
             "class": "%logger{40}",
             "message": "%message"
             }
@@ -20,8 +21,10 @@
     </encoder>
   </appender>
 
-  <root level="DEBUG">
+  <root level="INFO">
     <appender-ref ref="jsonAppender"/>
   </root>
+
+  <logger name="WireMock" level="INFO"/>
 
 </configuration>
