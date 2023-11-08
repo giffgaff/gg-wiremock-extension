@@ -1,4 +1,4 @@
-package org.giffgaff;
+package com.giffgaff;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

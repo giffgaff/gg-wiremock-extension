@@ -27,23 +27,5 @@
       <version>2.35.1</version>
       <optional>true</optional>
     </dependency>
-    <dependency>
-      <groupId>com.github.tomakehurst</groupId>
-      <artifactId>wiremock-tests</artifactId>
-      <version>2.35.1</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-classic</artifactId>
-      <version>1.2.12</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>net.logstash.logback</groupId>
-      <artifactId>logstash-logback-encoder</artifactId>
-      <version>7.3</version>
-      <optional>true</optional>
-    </dependency>
   </dependencies>
 </project>

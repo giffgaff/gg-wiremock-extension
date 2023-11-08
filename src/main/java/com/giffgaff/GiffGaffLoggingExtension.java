@@ -1,6 +1,4 @@
-package org.giffgaff;
-
-import static com.github.tomakehurst.wiremock.common.LocalNotifier.notifier;
+package com.giffgaff;
 
 import com.github.tomakehurst.wiremock.extension.requestfilter.RequestFilterAction;
 import com.github.tomakehurst.wiremock.extension.requestfilter.StubRequestFilter;
